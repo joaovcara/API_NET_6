@@ -33,7 +33,7 @@ namespace Infrastructure.Configuration
 
         public string GetStringConection()
         {
-            return "Data Source=JOAOCARA\\SQL2022;Initial Catalog=API_Net6;Integrated Security=False;User ID=sa;Password=sql@2022;Connect Timeout=15;Encrypty=False;TrustServerCertificate=False";
+            return "Data Source=JOAOCARA\\SQL2022;Initial Catalog=API_Net6;Integrated Security=False;User ID=sa;Password=sql@2022;Connect Timeout=15;TrustServerCertificate=False";
         }
     }
 }
